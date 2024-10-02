@@ -1,13 +1,13 @@
 # Site settings
-title: 2019 SoCal Robotics Symposium
+title: 2024 Kratos Multiphysics Workshop
 
-url: http://scr2019.caltech.edu/
+url: ''
 baseurl: ''
 
-conference_title: "KratosMultiphysics Workshop"
+conference_title: "Kratos Multiphysics Workshop"
 conference_title_short: "KM Workshop"
 year: "2024"
-infoline_text: "Thanks for attending SCR 2019, see you again next year!"
+# infoline_text: "Thanks for attending the Workshop, see you again in two years!"
 
 # Color settings
 color:
