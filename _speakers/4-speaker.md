@@ -1,6 +1,5 @@
 ---
-name:  John Doe
-title: Title 
+name: Name Surname
 affiliation: Affiliation
 image: https://via.placeholder.com/300
 link: http://website.com

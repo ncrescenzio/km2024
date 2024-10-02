@@ -1,6 +1,6 @@
 ---
 name: Antonia Larese
-title:  University of Padova
+affiliation:  University of Padova
 image: assets/img/organizers/larese.jpg
 website: https://antonialarese.github.io/
 github: https://github.com/antonialarese

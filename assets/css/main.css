@@ -95,13 +95,15 @@
 .banner-heading{
   text-align:center;
   font-weight:bold;
-  color:{{site.color.title}};
+  color:{{site.color.primary-dark}};
+  /* color:{{site.color.title}}; */
 }
 
 .banner-subheading{
   text-align:center;
   font-weight:bold;
-  color: {{site.color.title}};
+  color: {{site.color.primary-dark}};
+  /* color: {{site.color.title}}; */
 }
 
 .sponsor-row{
