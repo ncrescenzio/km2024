@@ -1,0 +1,51 @@
+<!-- Organizers section -->
+<div class="section scrollspy section-gray-section" id="organizers">
+  <div class="container">
+    <h4 class="center-align section-gray-header">Workshop Organizers</h4>
+
+    <div class="row">
+      <div class="col s12 m12 l12 section-gray-body">
+        <p class="center">For any question about the workshop organization, please contact <a href="mailto:{{site.organizer-email}}">{{site.organizer-email}}</a>.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      {% assign organizers_sorted = site.organizers | sort:"order_number" %}
+      {% for organizers in organizers_sorted %}
+        <div class="col s12 m6 l3">
+          <div class="card hoverable">
+            <div class="card-image">
+              <img class="activator portrait-img" src="{{organizers.image}}">
+              <!-- <span class="card-title" id="main-title">{{organizers.name}}</span> -->
+            </div>
+            <div class="card-content" id="secondary-title" style="">
+               <div style="width: 60%; float: left;">
+               <span class="card-title activator" id="main-title-text">
+                  {{organizers.name}}</span>
+               <span class="card-title activator" id="secondary-title-text">
+                  {{organizers.title}}</span>
+               </div>
+               <div style="width: 40%; float: right; margin-bottom: 5px; text-align: right;">
+               {% if organizers.github %}
+               <a href="{{organizers.github}}">
+                  <i class="bi bi-github" id="icon-style"></i></a>
+               {% endif %}
+               {% if organizers.linkedin %}
+               <a href="{{organizers.linkedin}}">
+                  <i class="bi bi-linkedin" id="icon-style"></i></a>
+               {% endif %}
+               {% if organizers.website %}
+               <a href="{{organizers.website}}">
+                  <i class="bi bi-globe2" id="icon-style"></i></a>
+               {% endif %}
+               </div>
+               <!-- <br style="clear: both"/> -->
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</div>
