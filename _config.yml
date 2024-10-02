@@ -17,7 +17,7 @@ color:
   accent: '#B89E8F'
 
 # conference data
-background-image: img/logos/kratos.png
+# background-image: img/logos/kratos.png
 map-embed: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1699.4727650512243!2d11.887008477909852!3d45.412408267943725!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477eda58b44676df%3A0xfacae5884fca17f5!2sTorre%20Archimede%2C%20Via%20Trieste%2C%2063%2C%2035121%20Padova%20PD!5e1!3m2!1sen!2sit!4v1727858204741!5m2!1sen!2sit
 organizer-email : organizer@email.com
 registration-page : http://registration.com
