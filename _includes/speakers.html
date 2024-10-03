@@ -5,22 +5,14 @@
 
        <div class="row">
           <ul class="col s12 m10 offset-m1 l8 offset-l2" style="font-size: 20px">
-             {% assign speakers_sorted = site.speakers | sort %}
-             {% for speaker in speakers_sorted %}
-             <li style="margin-bottom:5px; margin-left:10px; list-style-type: disc">
+             {% assign speakers = site.data.speakers %}
+             {% for speaker in speakers %}
+             <li style="margin-bottom:10px; margin-left:10px; list-style-type: disc">
                 <span style="font-weight: bold">{{speaker.name}}</span>,
                 <span style="font-style: italic">{{speaker.affiliation}}</span>
                 {% if speaker.github %}
                 <a href="{{speaker.github}}">
                    <i class="bi bi-github" style="padding-left: 5px"></i></a>
-                {% endif %}
-                {% if speaker.linkedin %}
-                <a href="{{speaker.linkedin}}">
-                   <i class="bi bi-linkedin" style="padding-left: 5px"></i></a>
-                {% endif %}
-                {% if speaker.website %}
-                <a href="{{speaker.website}}">
-                   <i class="bi bi-globe2" style="padding-left: 5px"></i></a>
                 {% endif %}
              </li>
              {% endfor %}

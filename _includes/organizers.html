@@ -11,8 +11,8 @@
     </div>
 
     <div class="row">
-      {% assign organizers_sorted = site.organizers | sort:"index" %}
-      {% for organizers in organizers_sorted %}
+      <!-- {% assign organizers_sorted = site.data.organizers | sort:"index" %} -->
+      {% for organizers in site.data.organizers %}
         <div class="col s12 m6 l3">
           <div class="card hoverable">
             <div class="card-image">

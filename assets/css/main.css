@@ -1,6 +1,23 @@
 ---
 ---
 
+.tabs .tab a {
+   color: {{site.color.primary-dark}} !important;
+}
+
+.tabs .tab a:hover {
+   color: {{site.color.primary-dark}} !important;
+}
+
+.tabs .tab a:focus.active {
+   color: {{site.color.primary-dark}} !important;
+   background-color: white !important;
+}
+
+.tabs .indicator {
+   background-color:{{site.color.primary-dark}} !important;
+}
+
 .navbar-fixed {
   position: absolute;
   z-index:999999999;
@@ -155,6 +172,34 @@
   margin-top:0px;
   padding-top:0px;
 }
+
+.collapsible-header{
+   font-weight: bold;
+   font-size: 20px;
+}
+
+/* li { */
+/* 	.collapsible-header { */
+/* 		justify-content: space-between; */
+/* 		.caret { */
+/* 			color: black; */
+/* 			margin-right: 0; */
+/* 			transition: transform 0.2s ease; */
+/* 		} */
+/* 	} */
+/* 	&.active { */
+/* 		.collapsible-header { */
+/* 			background-color: lightcoral; */
+/* 			color: black; */
+/* 			.caret { */
+/* 				color: black; */
+/* 				transform: rotate(-180deg); */
+/* 				transform-origin: 0.6em 0.5em; */
+/* 			} */
+/* 		} */
+/* 	}	 */
+/* } */
+/**/
 
 .container-logo{
   aspect-ratio: 1.5 / 1;
