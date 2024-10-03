@@ -1,7 +1,7 @@
 ---
 name: Suneth Warnakulasuriya
 affiliation: Technische Universitat Braunschweig
-image: https://via.placeholder.com/400
+image: https://avatars.githubusercontent.com/u/7856520?v=4
 website:
 github: https://github.com/sunethwarna
 linkedin: https://www.linkedin.com/in/sunethwarna/
