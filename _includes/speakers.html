@@ -36,7 +36,7 @@
 
        <div class="row">
           <ul class="col s12 m6 l6" style="font-size: 20px">
-             {% assign speakers_sorted = site.speakers | sort:"order_number" %}
+             {% assign speakers_sorted = site.speakers | sort %}
              {% for speaker in speakers_sorted %}
              <li style="margin-bottom:5px; margin-left:10px; list-style-type: disc">
                 <span style="font-weight: bold">{{speaker.name}}</span>,

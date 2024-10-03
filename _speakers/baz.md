@@ -1,10 +1,10 @@
 ---
-name: Name Surname
+name: baz
 affiliation: Affiliation
 image: https://via.placeholder.com/300
 link: http://website.com
-session: talks2
-priority: 3
+session: talks1
+priority: 1
 talk_title: Talk Title
 ---
 **Abstract**: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
