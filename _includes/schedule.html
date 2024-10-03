@@ -11,30 +11,42 @@
                <li class="tab col s4"><a href="#day3"><span  style="font-weight: bold; font-size: 20px;">Day 3</span></a></li>
             </ul>
          </div>
-         <div id="day1" class="col s12 m10 offset-m1 l10 offset-l1 section-gray-body">
+
+         <!--- First Day -->
+         {% for day in site.data.schedule.days %}
+         <div id="{{day.name}}" class="col s12 m10 offset-m1 l10 offset-l1 section-gray-body">
+            {% for session in day.sessions %}
             <table class="schedule">
                <tbody>
-               {% for session in site.sessions %}
-               {% assign session_speakers = site.speakers | where:"session",{{session.name}} | sort: "priority" %}
-               {% assign speakers_size = session_speakers | size %}
-               <tr>
-                  <th scope="row"><time>{{session.time}}</time></th>
-                  <td>
-                     <h5>{{session.title}}</h5>
-                     {% if speakers_size > 0 %}
-                     {% for speaker in session_speakers %}
-                     <b>{{speaker.name}}</b>{% if {{speaker.talk_title}} %}: <i>{{speaker.talk_title}}</i> {% endif %}<br/>
+                  <tr>
+                     <th>from {{session.start_time}} to {{session.end_time}}</th>
+                     <td><h5>{{session.title}}</h5></td>
+                  </tr>
+                  {% if session.talks %}
+                  {% for talk in session.talks %}
+                  <tr>
+                     <th>{{talk.start_time}}-{{talk.end_time}}</th>
+                     {% for speaker in site.data.speakers %}
+                     {% if speaker.talks %}
+                     {% assign speaker_talks = speaker.talks | where:"label",{{talk.label}} %}
+                     {% assign speaker_talks_size = speaker_talks | size %}
+                     {% if speaker_talks_size > 0 %}
+                     <td>
+                     {% for speaker_talk in speaker_talks %}
+                     <b>{{speaker.name}}</b>: <i>{{speaker_talk.title}}</i><br/>
                      {% endfor %}
-                     {% else %}
+                     </td>
                      {% endif %}
-                  </td>
-               </tr>
-               {% endfor %}
+                     {% endif %}
+                     {% endfor %}
+                  </tr>
+                  {% endfor %}
+                  {% endif %}
                </tbody>
             </table>
+            {% endfor %}
          </div>
-         <div id="day2" class="col s12">Test 2</div>
-         <div id="day3" class="col s12">Test 3</div>
+         {% endfor %}
       </div>
 
       <div class="row">

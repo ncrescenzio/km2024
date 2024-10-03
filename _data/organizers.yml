@@ -1,24 +1,30 @@
 - name: Antonia Larese
-  affiliation:  University of Padova
+  affiliation:  UNIPD (Italy)
   image: assets/img/organizers/larese.jpg
   website: https://antonialarese.github.io/
   github: https://github.com/antonialarese
   linkedin: https://www.linkedin.com/in/antonialarese/
 - name: Rubén Zorrilla Martínez
-  affiliation:  UPC/CIMNE
+  affiliation:  UPC/CIMNE (Spain)
   image: https://avatars.githubusercontent.com/u/19992225?v=4
-  website: ""
+  website:
   github: https://github.com/rubenzorrilla
   linkedin: https://www.linkedin.com/in/ruben-zorrilla-mart%C3%ADnez-49248251/
 - name: Carlos Roig
   affiliation: CIMNE (Spain)
   image: https://avatars.githubusercontent.com/u/1935791?v=4
-  website: ""
+  website:
   github: https://github.com/roigcarlo
   linkedin: https://www.linkedin.com/in/carlosroigpina/
 - name: Suneth Warnakulasuriya
-  affiliation: Technische Universitat Braunschweig
+  affiliation: TUB (Germany)
   image: https://avatars.githubusercontent.com/u/7856520?v=4
-  website: ""
+  website:
   github: https://github.com/sunethwarna
   linkedin: https://www.linkedin.com/in/sunethwarna/
+- name: Nicolò Crescenzio
+  affiliation: UNIPD (Italy)
+  image: https://via.placeholder.com/400
+  website:
+  github:
+  linkedin:

@@ -10,36 +10,36 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row center-align">
       <!-- {% assign organizers_sorted = site.data.organizers | sort:"index" %} -->
       {% for organizers in site.data.organizers %}
-        <div class="col s12 m6 l3">
+        <div class="col s12 m6 l2">
           <div class="card hoverable">
             <div class="card-image">
               <img class="activator portrait-img" src="{{organizers.image}}">
               <!-- <span class="card-title" id="main-title">{{organizers.name}}</span> -->
             </div>
-            <div class="card-content" id="secondary-title" style="">
-               <div style="width: 60%; float: left;">
+            <div class="card-content" id="secondary-title">
+               <div style="width: 100%; float: left;">
                <span class="card-title activator" id="main-title-text">
                   {{organizers.name}}</span>
                <span class="card-title activator" id="secondary-title-text">
                   {{organizers.affiliation}}</span>
                </div>
-               <div style="width: 40%; float: right; margin-bottom: 5px; text-align: right;">
-               {% if organizers.github %}
-               <a href="{{organizers.github}}">
-                  <i class="bi bi-github" id="icon-style"></i></a>
-               {% endif %}
-               {% if organizers.linkedin %}
-               <a href="{{organizers.linkedin}}">
-                  <i class="bi bi-linkedin" id="icon-style"></i></a>
-               {% endif %}
-               {% if organizers.website %}
-               <a href="{{organizers.website}}">
-                  <i class="bi bi-globe2" id="icon-style"></i></a>
-               {% endif %}
-               </div>
+               <!-- <div style="width: 40%; float: right; margin-bottom: 5px; text-align: right;"> -->
+               <!-- {% if organizers.github %} -->
+               <!-- <a href="{{organizers.github}}"> -->
+               <!--    <i class="bi bi-github" id="icon-style"></i></a> -->
+               <!-- {% endif %} -->
+               <!-- {% if organizers.linkedin %} -->
+               <!-- <a href="{{organizers.linkedin}}"> -->
+               <!--    <i class="bi bi-linkedin" id="icon-style"></i></a> -->
+               <!-- {% endif %} -->
+               <!-- {% if organizers.website %} -->
+               <!-- <a href="{{organizers.website}}"> -->
+               <!--    <i class="bi bi-globe2" id="icon-style"></i></a> -->
+               <!-- {% endif %} -->
+               <!-- </div> -->
                <!-- <br style="clear: both"/> -->
             </div>
           </div>
