@@ -10,29 +10,74 @@
       </div>
     </div>-->
 
-    <div class="row">
-      {% assign speakers_sorted = site.speakers | sort:"order_number" %}
-      {% for speaker in speakers_sorted %}
+    <!-- <div class="row"> -->
+    <!--   {% assign speakers_sorted = site.speakers | sort:"order_number" %} -->
+    <!--   {% for speaker in speakers_sorted %} -->
       <!-- <a href="#" data-target={{speaker.id}} class="modal-trigger"> -->
-        <div class="col s12 m6 l3">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img class="activator portrait-img" src="{{speaker.image}}">
+    <!--     <div class="col s12 m6 l3"> -->
+    <!--       <div class="card hoverable"> -->
+    <!--         <div class="card-image"> -->
+    <!--           <img class="activator portrait-img" src="{{speaker.image}}"> -->
               <!-- <span class="card-title" id="main-title">{{speaker.name}}</span> -->
-            </div>
-            <div class="card-content" id="secondary-title" style="">
-               <div style="width: 60%; float: left;">
-               <span class="card-title activator" id="main-title-text">
-                  {{speaker.name}}</span>
-               <span class="card-title activator" id="secondary-title-text">
-                  {{speaker.affiliation}}</span>
-               </div>
-            </div>
-          </div>
-        </div>
+    <!--         </div> -->
+    <!--         <div class="card-content" id="secondary-title" style=""> -->
+    <!--            <div style="width: 60%; float: left;"> -->
+    <!--            <span class="card-title activator" id="main-title-text"> -->
+    <!--               {{speaker.name}}</span> -->
+    <!--            <span class="card-title activator" id="secondary-title-text"> -->
+    <!--               {{speaker.affiliation}}</span> -->
+    <!--            </div> -->
+    <!--         </div> -->
+    <!--       </div> -->
+    <!--     </div> -->
       <!-- </a> -->
-      {% endfor %}
-    </div>
+    <!--   {% endfor %} -->
+    <!-- </div> -->
+
+       <div class="row">
+          <ul class="col s12 m6 l6" style="font-size: 20px">
+             {% assign speakers_sorted = site.speakers | sort:"order_number" %}
+             {% for speaker in speakers_sorted %}
+             <li style="margin-bottom:5px; list-style-type: disc">
+                <span style="font-weight: bold">{{speaker.name}}</span>,
+                <span style="font-style: italic">{{speaker.affiliation}}</span>
+                {% if speaker.github %}
+                <a href="{{speaker.github}}">
+                   <i class="bi bi-github" style="padding-left: 5px"></i></a>
+                {% endif %}
+                {% if speaker.linkedin %}
+                <a href="{{speaker.linkedin}}">
+                   <i class="bi bi-linkedin" style="padding-left: 5px"></i></a>
+                {% endif %}
+                {% if speaker.website %}
+                <a href="{{speaker.website}}">
+                   <i class="bi bi-globe2" style="padding-left: 5px"></i></a>
+                {% endif %}
+             </li>
+             {% endfor %}
+          </ul>
+          <ul class="col s12 m6 l6" style="font-size: 20px">
+             {% assign speakers_sorted = site.speakers | sort:"order_number" %}
+             {% for speaker in speakers_sorted %}
+             <li style="margin-bottom:5px; list-style-type: disc">
+                <span style="font-weight: bold">{{speaker.name}}</span>,
+                <span style="font-style: italic">{{speaker.affiliation}}</span>
+                {% if speaker.github %}
+                <a href="{{speaker.github}}">
+                   <i class="bi bi-github" style="padding-left: 5px"></i></a>
+                {% endif %}
+                {% if speaker.linkedin %}
+                <a href="{{speaker.linkedin}}">
+                   <i class="bi bi-linkedin" style="padding-left: 5px"></i></a>
+                {% endif %}
+                {% if speaker.website %}
+                <a href="{{speaker.website}}">
+                   <i class="bi bi-globe2" style="padding-left: 5px"></i></a>
+                {% endif %}
+             </li>
+             {% endfor %}
+          </ul>
+       </div>
 
   </div>
 </div>

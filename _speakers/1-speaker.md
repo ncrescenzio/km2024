@@ -1,8 +1,10 @@
 ---
-name: Name Surname
-affiliation: Affiliation
+name: Antonia Larese
+affiliation: University of Padova (Italy)
 image: https://via.placeholder.com/300
-link: http://website.com
+website: https://antonialarese.github.io/
+github: https://github.com/antonialarese
+linkedin: https://www.linkedin.com/in/antonialarese
 session: talks1
 priority: 1
 talk_title: Talk Title
