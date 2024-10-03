@@ -38,7 +38,7 @@
           <ul class="col s12 m6 l6" style="font-size: 20px">
              {% assign speakers_sorted = site.speakers | sort:"order_number" %}
              {% for speaker in speakers_sorted %}
-             <li style="margin-bottom:5px; list-style-type: disc">
+             <li style="margin-bottom:5px; margin-left:10px; list-style-type: disc">
                 <span style="font-weight: bold">{{speaker.name}}</span>,
                 <span style="font-style: italic">{{speaker.affiliation}}</span>
                 {% if speaker.github %}
@@ -59,7 +59,7 @@
           <ul class="col s12 m6 l6" style="font-size: 20px">
              {% assign speakers_sorted = site.speakers | sort:"order_number" %}
              {% for speaker in speakers_sorted %}
-             <li style="margin-bottom:5px; list-style-type: disc">
+             <li style="margin-bottom:5px; margin-left:10px; list-style-type: disc">
                 <span style="font-weight: bold">{{speaker.name}}</span>,
                 <span style="font-style: italic">{{speaker.affiliation}}</span>
                 {% if speaker.github %}
