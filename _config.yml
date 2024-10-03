@@ -27,7 +27,6 @@ collections:
   - speakers
   - organizers
   - sessions
-  - papers
 
 # Build settings
 markdown: kramdown
