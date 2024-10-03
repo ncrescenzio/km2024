@@ -1,7 +1,6 @@
 ---
 name: Antonia Larese
 affiliation: University of Padova (Italy)
-image: https://via.placeholder.com/300
 website: https://antonialarese.github.io/
 github: https://github.com/antonialarese
 linkedin: https://www.linkedin.com/in/antonialarese
