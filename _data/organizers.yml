@@ -1,6 +1,7 @@
 - name: Antonia Larese
   affiliation:  UNIPD (Italy)
-  image: assets/img/organizers/larese.jpg
+  # image: assets/img/organizers/larese.jpg
+  image: https://antonialarese.github.io/images//DSC_0581-EDIT.jpg
   website: https://antonialarese.github.io/
   github: https://github.com/antonialarese
   linkedin: https://www.linkedin.com/in/antonialarese/
@@ -24,7 +25,8 @@
   linkedin: https://www.linkedin.com/in/sunethwarna/
 - name: Nicolò Crescenzio
   affiliation: UNIPD (Italy)
-  image: https://via.placeholder.com/400
+  # image: https://via.placeholder.com/400
+  image: https://media.licdn.com/dms/image/v2/C4D03AQGEnUuZtnfz2g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1538317271404?e=2147483647&v=beta&t=iWexdSR4x-J678DnnI9hExLKXkUJRt0GSdszzN7d_7g
   website:
   github:
   linkedin:

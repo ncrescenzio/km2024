@@ -13,10 +13,11 @@
     <div class="row center-align">
       <!-- {% assign organizers_sorted = site.data.organizers | sort:"index" %} -->
       {% for organizers in site.data.organizers %}
-        <div class="col s12 m6 l2">
+        <div class="col s12 m6 l4">
           <div class="card hoverable">
             <div class="card-image">
-              <img class="activator portrait-img" src="{{organizers.image}}">
+              <img class="activator portrait-img" src="{{organizers.image}}"
+              style="aspect-ratio: 1 / 1;">
               <!-- <span class="card-title" id="main-title">{{organizers.name}}</span> -->
             </div>
             <div class="card-content" id="secondary-title">
