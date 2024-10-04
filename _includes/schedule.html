@@ -20,19 +20,19 @@
                <tbody>
                   {% if session.talks %}
                   <tr>
-                     <th></th>
+                     <th>{{session.start_time}}-{{session.end_time}}</th>
                      <td><h5>{{session.title}}</h5></td>
                   </tr>
-                  {% for talk in session.talks %}
-                  <tr>
-                     <th>{{talk.start_time}}-{{talk.end_time}}</th>
-                     {% assign talksp = site.data.talks | where: "tag",talk.label | first %}
-                     {% assign talk_title = talksp.title %}
-                     {% assign speaker = site.data.speakers | where: "tag",talksp.speaker | first %}
-                     {% assign speaker_name = speaker.name %}
-                     <td><b>{{speaker_name}}:</b> <i>{{talk_title}}</i></td>
-                  </tr>
-                  {% endfor %}
+                  <!-- {% for talk in session.talks %} -->
+                  <!-- <tr> -->
+                  <!--    <th>{{talk.start_time}}-{{talk.end_time}}</th> -->
+                  <!--    {% assign talksp = site.data.talks | where: "tag",talk.label | first %} -->
+                  <!--    {% assign talk_title = talksp.title %} -->
+                  <!--    {% assign speaker = site.data.speakers | where: "tag",talksp.speaker | first %} -->
+                  <!--    {% assign speaker_name = speaker.name %} -->
+                  <!--    <td><b>{{speaker_name}}:</b> <i>{{talk_title}}</i></td> -->
+                  <!-- </tr> -->
+                  <!-- {% endfor %} -->
                   {% else %}
                   <tr>
                      <th>{{session.start_time}}-{{session.end_time}}</th>
