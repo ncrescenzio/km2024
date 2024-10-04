@@ -18,11 +18,11 @@
             {% for session in day.sessions %}
             <table class="schedule">
                <tbody>
+                  {% if session.talks %}
                   <tr>
-                     <th>from {{session.start_time}} to {{session.end_time}}</th>
+                     <th></th>
                      <td><h5>{{session.title}}</h5></td>
                   </tr>
-                  {% if session.talks %}
                   {% for talk in session.talks %}
                   <tr>
                      <th>{{talk.start_time}}-{{talk.end_time}}</th>
@@ -33,6 +33,11 @@
                      <td><b>{{speaker_name}}:</b> <i>{{talk_title}}</i></td>
                   </tr>
                   {% endfor %}
+                  {% else %}
+                  <tr>
+                     <th>{{session.start_time}}-{{session.end_time}}</th>
+                     <td><h5>{{session.title}}</h5></td>
+                  </tr>
                   {% endif %}
                </tbody>
             </table>
