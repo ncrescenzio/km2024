@@ -26,19 +26,11 @@
                   {% for talk in session.talks %}
                   <tr>
                      <th>{{talk.start_time}}-{{talk.end_time}}</th>
-                     {% for speaker in site.data.speakers %}
-                     {% if speaker.talks %}
-                     {% assign speaker_talks = speaker.talks | where:"label",{{talk.label}} %}
-                     {% assign speaker_talks_size = speaker_talks | size %}
-                     {% if speaker_talks_size > 0 %}
-                     <td>
-                     {% for speaker_talk in speaker_talks %}
-                     <b>{{speaker.name}}</b>: <i>{{speaker_talk.title}}</i><br/>
-                     {% endfor %}
-                     </td>
-                     {% endif %}
-                     {% endif %}
-                     {% endfor %}
+                     {% assign talksp = site.data.talks | where: "tag",talk.label | first %}
+                     {% assign talk_title = talksp.title %}
+                     {% assign speaker = site.data.speakers | where: "tag",talksp.speaker | first %}
+                     {% assign speaker_name = speaker.name %}
+                     <td><b>{{speaker_name}}:</b> <i>{{talk_title}}</i></td>
                   </tr>
                   {% endfor %}
                   {% endif %}

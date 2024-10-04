@@ -1,0 +1,39 @@
+- title: "Kratos. Why? What? How? An Historical Perspective"
+  tag: "intro1"
+  speaker: tba1
+- title: "Kratos Overview"
+  tag: "intro2"
+  speaker: roig
+- title: "Collaboration with Industry in Germany"
+  tag: "industry1"
+  speaker: tba2
+- title: "Deltares"
+  tag: "industry2"
+  speaker: deltares
+- title: "Altair"
+  tag: "industry3"
+  speaker: altair
+- title: "Computational Fluid Dynamics"
+  tag: "KS1-1"
+  speaker: zorrilla
+- title: "Coupling: CoSimulationApplication"
+  tag: "KS2-1"
+  speaker: zorrilla
+- title: "Computational Solid Mechanics"
+  tag: "KS1-2"
+  speaker: warnakulasuriya
+- title: "Reduced Order Models"
+  tag: "KS1-3"
+  speaker: rossi
+- title: "Particle Methods: MpmApplication"
+  tag: "KS2-2"
+  speaker: larese
+- title: "Particle Methods: PfemApplication"
+  tag: "KS2-3"
+  speaker: franci
+- title: "GeoMechanicsApplication"
+  tag: "KS3-1"
+  speaker: tba3
+- title: "GUI and Flowgraph, Multistage, Register"
+  tag: "KS4-1"
+  speaker: tba4

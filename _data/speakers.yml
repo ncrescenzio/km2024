@@ -1,67 +1,41 @@
-- name: Name Surname
+- name: TBA
   affiliation: Affiliation
-  talks:
-    - label: "intro1"
-      title: "Kratos. Why? What? How? An Historical Perspective"
+  tag: tba1
 - name: Carlos Roig
   affiliation: CIMNE (Spain)
   github: https://github.com/roigcarlo
-  talks:
-    - label: "intro2"
-      title: "Kratos Overview"
-- name: Name Surname
+  tag: roig
+- name: TBA
   affiliation: Affiliation
-  talks:
-    - label: "industry1"
-      title: "Collaboration with Industry in Germany"
+  tag: tba2
 - name: TBA
   affiliation: Deltares (The Netherlands)
-  talks:
-    - label: "industry2"
-      title: "Deltares"
+  tag: deltares
 - name: TBA
   affiliation: Altair (USA)
-  talks:
-    - label: "industry3"
-      title: "Altair"
+  tag: altair
 - name: Rubén Zorrilla Martínez
   affiliation: UPC/CIMNE (Spain)
   github: https://github.com/rubenzorrilla
-  talks:
-    - label: "KS1-1"
-      title: "Computational Fluid Dynamics"
-    - label: "KS2-1"
-      title: "Coupling: CoSimulationApplication"
+  tag: zorrilla
 - name: Suneth Warnakulasuriya
   affiliation: Technische Universitat Braunschweig (Germany)
   github: https://github.com/sunethwarna
-  talks:
-    - label: "KS1-2"
-      title: "Computational Solid Mechanics"
+  tag: warnakulasuriya
 - name: Riccardo Rossi
   affiliation: UPC/CIMNE (Spain)
   github: https://github.com/RiccardoRossi
-  talks:
-    - label: "KS1-3"
-      title: "Reduced Order Models"
+  tag: rossi
 - name: Antonia Larese
   affiliation: University of Padova (Italy)
   github: https://github.com/antonialarese
-  talks:
-    - label: "KS2-2"
-      title: "Particle Methods: MpmApplication"
+  tag: larese
 - name: Alessandro Franci
   affiliation: UPC (Spain)
-  talks:
-    - label: "KS2-3"
-      title: "Particle Methods: PfemApplication"
-- name: Name Surname
+  tag: franci
+- name: TBA
   affiliation: Affiliation
-  talks:
-    - label: "KS3-1"
-      title: "GeoMechanicsApplication"
-- name: Name Surname
+  tag: tba3
+- name: TBA
   affiliation: Affiliation
-  talks:
-    - label: "KS4-1"
-      title: "GUI and Flowgraph, Multistage, Register"
+  tag: tba4
