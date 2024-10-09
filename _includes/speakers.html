@@ -7,14 +7,12 @@
           <ul class="col s12 m10 offset-m1 l8 offset-l2" style="font-size: 20px">
              {% assign speakers = site.data.speakers %}
              {% for speaker in speakers %}
+             {% unless speaker[1].name == "TBA" %}
              <li style="margin-bottom:10px; margin-left:10px; list-style-type: disc">
-                <span style="font-weight: bold">{{speaker.name}}</span>,
-                <span style="font-style: italic">{{speaker.affiliation}}</span>
-                <!-- {% if speaker.github %} -->
-                <!-- <a href="{{speaker.github}}"> -->
-                <!--    <i class="bi bi-github" style="padding-left: 5px"></i></a> -->
-                <!-- {% endif %} -->
+                <span style="font-weight: bold">{{speaker[1].name}}</span>,
+                <span style="font-style: italic">{{speaker[1].affiliation}}</span>
              </li>
+             {% endunless %}
              {% endfor %}
           </ul>
        </div>

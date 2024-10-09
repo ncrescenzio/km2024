@@ -26,11 +26,9 @@
                   <!-- {% for talk in session.talks %} -->
                   <!-- <tr> -->
                   <!--    <th>{{talk.start_time}}-{{talk.end_time}}</th> -->
-                  <!--    {% assign talksp = site.data.talks | where: "tag",talk.label | first %} -->
-                  <!--    {% assign talk_title = talksp.title %} -->
-                  <!--    {% assign speaker = site.data.speakers | where: "tag",talksp.speaker | first %} -->
-                  <!--    {% assign speaker_name = speaker.name %} -->
-                  <!--    <td><b>{{speaker_name}}:</b> <i>{{talk_title}}</i></td> -->
+                  <!--    {% assign talksp = site.data.talks[talk.label] %} -->
+                  <!--    {% assign speaker = site.data.speakers[talksp.speaker] %} -->
+                  <!--    <td><b>{{speaker.name}}:</b> <i>{{talksp.title}}</i></td> -->
                   <!-- </tr> -->
                   <!-- {% endfor %} -->
                   {% else %}
