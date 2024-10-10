@@ -1,0 +1,148 @@
+\documentclass{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{geometry}
+% \usepackage[showframe]{geometry}
+\geometry{a4paper, top=3cm, bottom=3cm, left=2cm, right=2cm, heightrounded}
+\usepackage{amsmath, amssymb, amsfonts, dsfont, amsthm}
+\usepackage{bm}
+\usepackage{verbatim}
+\usepackage{mathtools}
+\usepackage[inline]{enumitem}
+\usepackage{cancel}
+\usepackage{multirow,multicol}
+\usepackage{svg}
+\usepackage{pgfplots}
+\usepackage{fancyhdr}
+\usepackage{siunitx}
+\usepackage{xcolor}
+\usepackage{cprotect}
+\usepackage{booktabs}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{blindtext}
+\usepackage[many]{tcolorbox}
+\usepackage[linesnumbered,ruled]{algorithm2e}
+\usepackage{listings,lstautogobble}
+\usepackage[numbered,framed]{matlab-prettifier}
+\usepackage[yyyymmdd,hhmmss]{datetime}
+\usepackage{currfile}
+\usepackage{afterpage}
+\usepackage{emptypage}
+\usepackage[title,toc]{appendix} % titletoc
+
+\begin{document}
+
+\title{
+   \Huge
+   2024 \textsc{Kratos Multiphysics\\Workshop @ UNIPD}
+}
+\author{
+   \small
+   \begin{tabular}{rl}
+      \textsc{Antonia Larese} & \textit{University of Padova (Italy)} \\
+      \textsc{Rubén Zorrilla Martínez} & \textit{UPC/CIMNE (Spain)} \\
+      \textsc{Carlos Roig} & \textit{CIMNE (Spain)} \\
+      \textsc{Suneth Warnakulasuriya} & \textit{Technische Universitat Braunschweig (Germany)} \\
+      \textsc{Nicol\`o Crescenzio} & \textit{University of Padova (Italy)}
+   \end{tabular}
+}
+\date{\textsc{November} 6-8, 2024}
+\maketitle
+
+\section*{\centering\textsc{Schedule: Kratos Workshop Day 1}}
+
+\begin{table}[h]\centering
+   \begin{tabular}{r|l}
+      \toprule\rule{0mm}{5mm}
+      {\large Time} & {\large Description} \\[1ex]
+      \midrule\rule{0mm}{4mm}
+      14:00 - 14:30 & Welcome \\[1ex]
+      \hline\rule{0mm}{5mm}
+                    & {\large \textbf{Introduction to Kratos}} \\[1ex]
+      14:30 - 15:15 & Kratos. Why? What? How? An Historical Perspective \textit{(Riccardo Rossi)}\\[1ex]
+      15:15 - 16:00 & Kratos: an Overview \textit{(Pooyan Dadvand)}\\[1ex]
+      \hline\rule{0mm}{5mm}
+      16:00 - 16:30 & Coffee Break \\[1ex]
+      \hline\rule{0mm}{5mm}
+                    & {\large \textbf{Kratos 4 Industry}} \\[1ex]
+      14:30 - 15:15 & Collaboration with Industry in Germany \textit{(Suneth Warnakulasuriya)}\\[1ex]
+      15:15 - 16:00 & Deltares \textit{(Jonathan Nuttall)}\\[1ex]
+      15:15 - 16:00 & Altair \textit{(Pooyan Dadvand)}\\[1ex]
+      \bottomrule
+   \end{tabular}
+\end{table}
+
+\newpage
+\section*{\centering \textsc{Schedule: Kratos Workshop Day 2}}
+
+\begin{table}[h]\centering
+   \begin{tabular}{r|l}
+      \toprule\rule{0mm}{5mm}
+      {\large Time} & {\large Description} \\[1ex]
+      \midrule\rule{0mm}{4mm}
+                    & {\large \textbf{What's New in Kratos? Application Session (1)}} \\[1ex]
+      09:00 - 09:30 & Computational Fluid Dynamics \textit{(Rubén Zorrilla Martínez)}\\[1ex]
+      09:30 - 10:00 & Computational Solid Mechanics \textit{(Suneth Warnakulasuriya)}\\[1ex]
+      10:00 - 10:30 & Reduced Order Models \textit{(Riccardo Rossi)}\\[1ex]
+      \hline\rule{0mm}{5mm}
+      10:30 - 11:00 & Coffee Break \\[1ex]
+      \hline\rule{0mm}{5mm}
+                    & {\large \textbf{What's New in Kratos? Application Session (2)}} \\[1ex]
+      11:00 - 11:30 & Coupling: the CoSimulationApplication \textit{(Rubén Zorrilla Martínez)}\\[1ex]
+      11:30 - 12:00 & Particle Methods: the MPMApplication \textit{(Antonia Larese)}\\[1ex]
+      12:00 - 12:30 & TBD \\[1ex]
+      \hline\rule{0mm}{5mm}
+      12:30 - 14:00 & Lunch Break \\[1ex]
+      \hline\rule{0mm}{5mm}
+                    & {\large \textbf{What's New in Kratos? Application Session (3)}} \\[1ex]
+      14:00 - 15:00 & The GeoMechanicsApplication \textit{(Jonathan Nuttall)}\\[1ex]
+      \hline\rule{0mm}{5mm}
+                    & {\large \textbf{What's New in Kratos? Core Session}} \\[1ex]
+      15:00 - 16:00 & GUI and FlowGraph, Multistage and Register \textit{(Carlos Roig)}\\[1ex]
+      \hline\rule{0mm}{5mm}
+      16:00 - 18:00 & Round Table \& Coffee \\[1ex]
+      \bottomrule
+   \end{tabular}
+\end{table}
+
+\newpage
+\section*{\centering \textsc{Schedule: Kratos Course}}
+
+\begin{table}[h]\centering
+   \begin{tabular}{r|l}
+      \toprule\rule{0mm}{5mm}
+      {\large Time} & {\large Description} \\[1ex]
+      \midrule\rule{0mm}{4mm}
+                    & {\large \textbf{Kratos Course (Session 1)}} \\[1ex]
+      09:00 - 09:30 & Kratos Installation \\[1ex]
+      09:30 - 10:00 & Using Kratos GUI \\[1ex]
+      \hline\rule{0mm}{5mm}
+      10:30 - 11:00 & Coffee Break \\[1ex]
+      \hline\rule{0mm}{5mm}
+                    & {\large \textbf{Kratos Course (Session 2)}} \\[1ex]
+      11:00 - 11:30 & Kratos Input Files and I/O \\[1ex]
+      11:30 - 12:00 & Data Management \\[1ex]
+      \hline\rule{0mm}{5mm}
+      12:30 - 14:00 & Lunch Break \\[1ex]
+      \hline\rule{0mm}{5mm}
+                    & {\large \textbf{Kratos Course (Session 3)}} \\[1ex]
+      14:00 - 14:40 & Solving Strategies \\[1ex]
+      14:40 - 15:20 & Manipulating Solution Values \\[1ex]
+      15:20 - 16:00 & Multiphysics with Kratos \\[1ex]
+      \hline\rule{0mm}{5mm}
+      16:00 - 16:30 & Coffee Break \\[1ex]
+      \hline\rule{0mm}{5mm}
+      16:30 - 17:00 & {\large \textbf{Technical discussion of ongoing issues}} \\[1ex]
+      \bottomrule
+   \end{tabular}
+\end{table}
+
+\newpage
+\section*{\centering \textsc{Workshop Venue}}
+
+\end{document}
