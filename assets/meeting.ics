@@ -69,7 +69,7 @@ BEGIN:VEVENT
 DTEND:20241106T133000Z
 LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
 DTSTART:20241106T130000Z
-SUMMARY:Registration & Welcome
+SUMMARY:Welcome
 UID:3f72588b-29e8-4cae-b3d9-3590744e9d16@3f72.org
 URL:https://ncrescenzio.github.io/km2024/
 END:VEVENT
@@ -85,7 +85,7 @@ BEGIN:VEVENT
 DTEND:20241106T173000Z
 LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
 DTSTART:20241106T170000Z
-SUMMARY:Altair - TBA\, Altair (Spain)
+SUMMARY:Altair - Pooyan Dadvand\, Altair (Spain)
 UID:f7f1b4d6-64a3-421a-8fb0-c3feef67a3f8@f7f1.org
 URL:https://ncrescenzio.github.io/km2024/
 END:VEVENT
