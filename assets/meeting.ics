@@ -37,7 +37,7 @@ BEGIN:VEVENT
 DTEND:20241107T140000Z
 LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
 DTSTART:20241107T130000Z
-SUMMARY:GeoMechanicsApplication - TBA\, Affiliation
+SUMMARY:GeoMechanicsApplication - Jonathan Nuttall\, Deltares (The Netherlands)
 UID:a21de538-cfd4-4267-846c-da23c7b013ba@a21d.org
 URL:https://ncrescenzio.github.io/km2024/
 END:VEVENT
@@ -149,7 +149,7 @@ BEGIN:VEVENT
 DTEND:20241106T170000Z
 LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
 DTSTART:20241106T160000Z
-SUMMARY:Deltares - TBA\, Deltares (The Netherlands)
+SUMMARY:Deltares - Jonathan Nuttall\, Deltares (The Netherlands)
 UID:4e38eaa2-4217-435d-a443-40b62a3f9411@4e38.org
 URL:https://ncrescenzio.github.io/km2024/
 END:VEVENT
