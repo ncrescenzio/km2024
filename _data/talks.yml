@@ -1,23 +1,23 @@
 intro1:
   title: "Kratos. Why? What? How? An Historical Perspective"
-  speaker: tba1
+  speaker: rossi
 intro2:
   title: "Kratos Overview"
-  speaker: roig
+  speaker: dadvand
 industry1:
   title: "Collaboration with Industry in Germany"
-  speaker: tba2
+  speaker: warnakulasuriya
 industry2:
   title: "Deltares"
-  speaker: deltares
+  speaker: nuttall
 industry3:
   title: "Altair"
-  speaker: altair
+  speaker: dadvand
 KS1-1:
   title: "Computational Fluid Dynamics"
   speaker: zorrilla
 KS2-1:
-  title: "Coupling: CoSimulationApplication"
+  title: "Coupling: the CoSimulationApplication"
   speaker: zorrilla
 KS1-2:
   title: "Computational Solid Mechanics"
@@ -26,14 +26,35 @@ KS1-3:
   title: "Reduced Order Models"
   speaker: rossi
 KS2-2:
-  title: "Particle Methods: MpmApplication"
+  title: "Particle Methods: the MpmApplication"
   speaker: larese
 KS2-3:
-  title: "Particle Methods: PfemApplication"
-  speaker: tba5
+  title: "TBD"
+  speaker: tba
 KS3-1:
   title: "GeoMechanicsApplication"
-  speaker: tba3
+  speaker: nuttall
 KS4-1:
   title: "GUI and Flowgraph, Multistage, Register"
-  speaker: tba4
+  speaker: roig
+KCS1-1:
+  title: "Kratos Installation"
+  speaker: tba
+KCS1-2:
+  title: "Using Kratos GUI"
+  speaker: tba
+KCS2-1:
+  title: "Kratos Input Files and I/O"
+  speaker: tba
+KCS2-2:
+  title: "Data Management"
+  speaker: tba
+KCS3-1:
+  title: "Solving Strategies"
+  speaker: tba
+KCS3-2:
+  title: "Manipulating Solution Values"
+  speaker: tba
+KCS3-3:
+  title: "Multiphysics with Kratos"
+  speaker: tba

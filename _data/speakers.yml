@@ -1,25 +1,13 @@
-tba1:
-  name: TBA
-  affiliation: Affiliation
-tba2:
-  name: TBA
-  affiliation: Affiliation
-tba3:
-  name: TBA
-  affiliation: Affiliation
-tba4:
-  name: TBA
-  affiliation: Affiliation
-tba5:
-  name: TBA
-  affiliation: Affiliation
+tba:
+  name: tba
+  affiliation: tba (tba)
 roig:
   name: Carlos Roig
   affiliation: CIMNE (Spain)
-deltares:
+nuttall:
   name: Jonathan Nuttall
   affiliation: Deltares (The Netherlands)
-altair:
+dadvand:
   name: Pooyan Dadvand
   affiliation: Altair (Spain)
 zorrilla:

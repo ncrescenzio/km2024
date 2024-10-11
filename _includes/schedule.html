@@ -64,21 +64,26 @@
                <tbody>
                   {% if session.talks %}
                   <tr>
-                     <th>{{session.start_time}}-{{session.end_time}}</th>
+                     <th></th>
                      <td><h5>{{session.title}}</h5></td>
                   </tr>
-                  <!-- {% for talk in session.talks %} -->
-                  <!-- <tr> -->
-                  <!--    <th>{{talk.start_time}}-{{talk.end_time}}</th> -->
-                  <!--    {% assign talksp = site.data.talks[talk.label] %} -->
-                  <!--    {% assign speaker = site.data.speakers[talksp.speaker] %} -->
-                  <!--    <td><b>{{speaker.name}}:</b> <i>{{talksp.title}}</i></td> -->
-                  <!-- </tr> -->
-                  <!-- {% endfor %} -->
-                  {% else %}
+                  {% for talk in session.talks %}
                   <tr>
+                     <th>{{talk.start_time}}-{{talk.end_time}}</th>
+                     {% assign talksp = site.data.talks[talk.label] %}
+                     {% assign speaker = site.data.speakers[talksp.speaker] %}
+                     <td>
+                        {{talksp.title}}
+                        <i>({{speaker.name}})</i>
+                     </td>
+                  </tr>
+                  {% endfor %}
+                  {% else %}
+                  <tr class="blue-grey lighten-5">
                      <th>{{session.start_time}}-{{session.end_time}}</th>
-                     <td><h5>{{session.title}}</h5></td>
+                     <td style="color: #a9b2b9; font-size: 15px; font-weight: 500">
+                        {{session.title}}
+                     </td>
                   </tr>
                   {% endif %}
                </tbody>
