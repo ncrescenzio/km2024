@@ -2,155 +2,227 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTEND:20241106T150000Z
-LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
-DTSTART:20241106T141500Z
-SUMMARY:Kratos Overview - Carlos Roig\, CIMNE (Spain)
-UID:4029a164-e959-40af-8322-cbefa5fabb21@4029.org
-URL:https://ncrescenzio.github.io/km2024/
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20241107T110000Z
-LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
-DTSTART:20241107T103000Z
-SUMMARY:Particle Methods: MpmApplication - Antonia Larese\, University of Padova (Italy)
-UID:068c89a4-7079-4eb2-b241-48542ce6e9c7@068c.org
-URL:https://ncrescenzio.github.io/km2024/
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20241107T170000Z
-LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
-DTSTART:20241107T150000Z
-SUMMARY:Round Table & Coeffee
-UID:1528b3de-bef2-4869-a106-9dd2906084a2@1528.org
-URL:https://ncrescenzio.github.io/km2024/
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20241107T103000Z
-LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
-DTSTART:20241107T100000Z
-SUMMARY:Coupling: CoSimulationApplication - Rubén Zorrilla Martínez\, UPC/CIMNE (Spain)
-UID:79be0ccc-b04b-4934-8a5f-1d9859305d8b@79be.org
-URL:https://ncrescenzio.github.io/km2024/
-END:VEVENT
-BEGIN:VEVENT
 DTEND:20241107T140000Z
 LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
 DTSTART:20241107T130000Z
 SUMMARY:GeoMechanicsApplication - Jonathan Nuttall\, Deltares (The Netherlands)
-UID:a21de538-cfd4-4267-846c-da23c7b013ba@a21d.org
-URL:https://ncrescenzio.github.io/km2024/
+UID:46908e36-35e6-489c-98c1-092f99120647@4690.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20241106T141500Z
+DTEND:20241107T150000Z
 LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
-DTSTART:20241106T133000Z
-SUMMARY:Kratos. Why? What? How? An Historical Perspective - TBA\, Affiliation
-UID:c821444f-35a3-4376-bd20-2936b24b5181@c821.org
-URL:https://ncrescenzio.github.io/km2024/
+DTSTART:20241107T140000Z
+SUMMARY:GUI and Flowgraph\, Multistage\, Register - Carlos Roig\, CIMNE (Spain)
+UID:f507afaa-97b7-4f1b-9cb9-c9ddbc7dcefb@f507.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20241106T153000Z
+DTEND:20241108T100000Z
 LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
-DTSTART:20241106T150000Z
+DTSTART:20241108T093000Z
 SUMMARY:Coffee Break
-UID:fbb5bffa-98ea-4e66-a778-058cba0cdbce@fbb5.org
-URL:https://ncrescenzio.github.io/km2024/
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20241107T113000Z
-LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
-DTSTART:20241107T110000Z
-SUMMARY:Particle Methods: PfemApplication - TBA
-UID:8df983e1-691a-4b87-a200-956f106cd558@8df9.org
-URL:https://ncrescenzio.github.io/km2024/
+UID:bcd9afba-68bb-4243-b455-35e307145084@bcd9.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20241106T133000Z
 LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
 DTSTART:20241106T130000Z
 SUMMARY:Welcome
-UID:3f72588b-29e8-4cae-b3d9-3590744e9d16@3f72.org
-URL:https://ncrescenzio.github.io/km2024/
-END:VEVENT
-BEGIN:VEVENT
-DTEND:20241107T090000Z
-LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
-DTSTART:20241107T083000Z
-SUMMARY:Computational Solid Mechanics - Suneth Warnakulasuriya\, Technische Universitat Braunschweig (Germany)
-UID:820ea3d9-e74d-45c1-9a7c-0a8dab7e757d@820e.org
-URL:https://ncrescenzio.github.io/km2024/
+UID:21cdbb01-aff6-4b1b-b808-b9eb59651ac2@21cd.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20241106T173000Z
 LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
 DTSTART:20241106T170000Z
 SUMMARY:Altair - Pooyan Dadvand\, Altair (Spain)
-UID:f7f1b4d6-64a3-421a-8fb0-c3feef67a3f8@f7f1.org
-URL:https://ncrescenzio.github.io/km2024/
+UID:be66e692-c96e-43bb-b73d-eba4dca7e9ef@be66.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20241107T130000Z
+DTEND:20241108T104500Z
 LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
-DTSTART:20241107T113000Z
-SUMMARY:Lunch Break
-UID:9ed182c2-387a-4959-bb6d-6b0600ec61d1@9ed1.org
-URL:https://ncrescenzio.github.io/km2024/
+DTSTART:20241108T100000Z
+SUMMARY:Kratos Input Files and I/O
+UID:338b772f-0d46-4ec4-8d51-026d919b5a30@338b.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20241107T093000Z
+DTEND:20241108T134000Z
 LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
-DTSTART:20241107T090000Z
-SUMMARY:Reduced Order Models - Riccardo Rossi\, UPC/CIMNE (Spain)
-UID:00b7ba35-ea86-4917-9335-a2325d0ba555@00b7.org
-URL:https://ncrescenzio.github.io/km2024/
+DTSTART:20241108T130000Z
+SUMMARY:Solving Strategies
+UID:eba35fee-8abb-4890-a792-a5038b329d29@eba3.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20241107T083000Z
+DTEND:20241106T150000Z
 LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
-DTSTART:20241107T080000Z
-SUMMARY:Computational Fluid Dynamics - Rubén Zorrilla Martínez\, UPC/CIMNE (Spain)
-UID:34bd98c4-654c-47c2-8ffb-01c7fc80f13f@34bd.org
-URL:https://ncrescenzio.github.io/km2024/
+DTSTART:20241106T141500Z
+SUMMARY:Kratos Overview - Pooyan Dadvand\, Altair (Spain)
+UID:050076dd-62a3-476f-a44d-de3e55f85b97@0500.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20241107T170000Z
+LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
+DTSTART:20241107T150000Z
+SUMMARY:Round Table & Coeffee
+UID:a7bdbfbd-bff0-4604-8aa7-c1fcecf14af9@a7bd.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20241108T160000Z
+LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
+DTSTART:20241108T150000Z
+SUMMARY:Technical discussion of ongoing issues
+UID:3c531ad8-6f78-4b19-8cda-34da7ce78a50@3c53.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20241107T100000Z
 LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
 DTSTART:20241107T093000Z
 SUMMARY:Coffee Break
-UID:3ae997fa-56ef-46e1-b375-8b8e2dd7fe8e@3ae9.org
-URL:https://ncrescenzio.github.io/km2024/
+UID:9f5814ee-9cd2-4b5b-a2f0-d4ae7d6752c1@9f58.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20241108T170000Z
+DTEND:20241107T130000Z
 LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
-DTSTART:20241108T080000Z
-SUMMARY:Kratos Course
-UID:c5e1dc1a-d22e-4a0d-8ef5-767cbea0b27e@c5e1.org
-URL:https://ncrescenzio.github.io/km2024/
+DTSTART:20241107T113000Z
+SUMMARY:Lunch Break
+UID:78dfc873-4548-4342-978c-b9461cd96e8e@78df.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
 END:VEVENT
 BEGIN:VEVENT
-DTEND:20241107T150000Z
+DTEND:20241107T103000Z
 LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
-DTSTART:20241107T140000Z
-SUMMARY:GUI and Flowgraph\, Multistage\, Register - TBA\, Affiliation
-UID:cb505580-923f-40ef-82b1-21a0d2893855@cb50.org
-URL:https://ncrescenzio.github.io/km2024/
+DTSTART:20241107T100000Z
+SUMMARY:Coupling: the CoSimulationApplication - Rubén Zorrilla Martínez\, UPC/CIMNE (Spain)
+UID:a3e2ea9a-c5d2-4b7d-8d66-d67a420e7361@a3e2.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20241108T113000Z
+LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
+DTSTART:20241108T104500Z
+SUMMARY:Data Management
+UID:22538667-c79e-48f7-bbd1-9363b09ff505@2253.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20241108T093000Z
+LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
+DTSTART:20241108T084500Z
+SUMMARY:Using Kratos GUI
+UID:396b3cf6-7275-44e5-98ea-f97ddd5223a8@396b.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20241107T113000Z
+LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
+DTSTART:20241107T110000Z
+SUMMARY:TBD
+UID:62a7d967-53d9-46bd-ab53-f3e7951b8e54@62a7.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20241107T110000Z
+LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
+DTSTART:20241107T103000Z
+SUMMARY:Particle Methods: the MpmApplication - Antonia Larese\, University of Padova (Italy)
+UID:ef11d92d-b885-4ac0-aacd-7dcd8b13aebd@ef11.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20241106T160000Z
 LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
 DTSTART:20241106T153000Z
-SUMMARY:Collaboration with Industry in Germany - TBA\, Affiliation
-UID:0ac67f17-bcef-43bc-b153-66cd124b4a4a@0ac6.org
-URL:https://ncrescenzio.github.io/km2024/
+SUMMARY:Collaboration with Industry in Germany - Suneth Warnakulasuriya\, Technische Universitat Braunschweig (Germany)
+UID:ed2a5ad5-8a0c-427e-a367-788a012aa5f2@ed2a.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
 END:VEVENT
 BEGIN:VEVENT
 DTEND:20241106T170000Z
 LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
 DTSTART:20241106T160000Z
 SUMMARY:Deltares - Jonathan Nuttall\, Deltares (The Netherlands)
-UID:4e38eaa2-4217-435d-a443-40b62a3f9411@4e38.org
-URL:https://ncrescenzio.github.io/km2024/
+UID:ee82b74b-5139-4b98-bb5d-2a512cc79d2a@ee82.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20241106T153000Z
+LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
+DTSTART:20241106T150000Z
+SUMMARY:Coffee Break
+UID:40533e2f-1085-4797-b4fc-98f0286506a7@4053.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20241108T130000Z
+LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
+DTSTART:20241108T113000Z
+SUMMARY:Lunch Break
+UID:56575d07-eaa2-4df0-ab3c-51353b240186@5657.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20241107T083000Z
+LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
+DTSTART:20241107T080000Z
+SUMMARY:Computational Fluid Dynamics - Rubén Zorrilla Martínez\, UPC/CIMNE (Spain)
+UID:00a66a38-9e73-4ff2-abb9-7fc782669b45@00a6.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20241106T141500Z
+LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
+DTSTART:20241106T133000Z
+SUMMARY:Kratos. Why? What? How? An Historical Perspective - Riccardo Rossi\, UPC/CIMNE (Spain)
+UID:7416fcde-eecb-45c2-96a2-960558e515a5@7416.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20241108T150000Z
+LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
+DTSTART:20241108T142000Z
+SUMMARY:Multiphysics with Kratos
+UID:42f4e5f3-4047-4f07-a0e0-c2d55fef5b15@42f4.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20241107T090000Z
+LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
+DTSTART:20241107T083000Z
+SUMMARY:Computational Solid Mechanics - Suneth Warnakulasuriya\, Technische Universitat Braunschweig (Germany)
+UID:9902d4ac-7aa6-434e-b130-f5968cae6bc6@9902.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20241107T093000Z
+LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
+DTSTART:20241107T090000Z
+SUMMARY:Reduced Order Models - Riccardo Rossi\, UPC/CIMNE (Spain)
+UID:95f8a8bf-726a-496c-895a-b162927248bd@95f8.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20241108T084500Z
+LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
+DTSTART:20241108T080000Z
+SUMMARY:Kratos Installation
+UID:2dd60664-4b25-4382-85aa-88f629843705@2dd6.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
+END:VEVENT
+BEGIN:VEVENT
+DTEND:20241108T142000Z
+LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
+DTSTART:20241108T134000Z
+SUMMARY:Manipulating Solution Values
+UID:408df8d7-064b-4b1f-b207-6c7c3245e687@408d.org
+URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
 END:VEVENT
 END:VCALENDAR
