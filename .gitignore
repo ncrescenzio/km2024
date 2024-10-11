@@ -7,3 +7,6 @@ Gemfile.lock
 
 vendor/
 venv3/
+
+*.aux
+*.log
