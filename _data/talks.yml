@@ -1,8 +1,10 @@
 intro1:
   title: "Kratos. Why? What? How? An Historical Perspective"
-  speaker: rossi
+  speaker:
+    - rossi
+    - dadvand
 intro2:
-  title: "Kratos Overview"
+  title: "Kratos: an Overview"
   speaker: dadvand
 industry1:
   title: "Collaboration with Industry in Germany"
@@ -29,32 +31,37 @@ KS2-2:
   title: "Particle Methods: the MpmApplication"
   speaker: larese
 KS2-3:
-  title: "TBD"
-  speaker: tba
+  title: "Optimization and System Identification"
+  speaker: antonau
 KS3-1:
-  title: "GeoMechanicsApplication"
+  title: "The GeoMechanicsApplication"
   speaker: nuttall
 KS4-1:
   title: "GUI and Flowgraph, Multistage, Register"
   speaker: roig
 KCS1-1:
-  title: "Kratos Installation"
-  speaker: tba
+  title: "Introduction: What is Kratos?"
+  speaker: roig
 KCS1-2:
-  title: "Using Kratos GUI"
-  speaker: tba
+  title: "Environment Setup and Kratos Installation"
+  speaker: roig
+KCS1-3:
+  title: "Installation Troubleshooting"
+  speaker: roig
+KCS1-4:
+  title: "Basic I/O"
+  speaker: rossi
 KCS2-1:
-  title: "Kratos Input Files and I/O"
-  speaker: tba
+  title: "Geometry Management"
+  speaker: warnakulasuriya
 KCS2-2:
   title: "Data Management"
-  speaker: tba
+  speaker: zorrilla
 KCS3-1:
-  title: "Solving Strategies"
-  speaker: tba
+  title: "Simulation Loop"
+  speaker: zorrilla
 KCS3-2:
-  title: "Manipulating Solution Values"
-  speaker: tba
-KCS3-3:
-  title: "Multiphysics with Kratos"
-  speaker: tba
+  title: "Multiphysics & Multistage"
+  speaker:
+    - dadvand
+    - zorrilla

@@ -10,3 +10,7 @@ venv3/
 
 *.aux
 *.log
+*.out
+
+.ipynb_checkpoints/
+venv/
