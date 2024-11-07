@@ -56,10 +56,12 @@ KCS2-1:
   speaker: warnakulasuriya
 KCS2-2:
   title: "Data Management"
-  speaker: zorrilla
+  speaker: dadvand
 KCS3-1:
   title: "Simulation Loop"
-  speaker: zorrilla
+  speaker:
+    - warnakulasuriya
+    - dadvand
 KCS3-2:
   title: "Multiphysics & Multistage"
   speaker:
