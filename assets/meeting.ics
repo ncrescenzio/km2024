@@ -173,7 +173,7 @@ BEGIN:VEVENT
 DTEND:20241107T110000Z
 LOCATION:Department of Mathematics 'Tullio Levi-Civita'\, Torre Archimede\, Via Trieste\, 63\, 35121\, Padova\, Italy
 DTSTART:20241107T103000Z
-SUMMARY:Coupling: the CoSimulationApplication - Rubén Zorrilla Martínez (UPC/CIMNE)
+SUMMARY:Coupling: the CoSimulationApplication - Pooyan Dadvand (Altair)
 UID:e2e2baf4-e124-43f0-aef3-02891f170871@e2e2.org
 URL:https://kratosmultiphysics.github.io/Kratos/pages/Kratos/Workshops/2024_UNIPD/Event/index.html
 END:VEVENT
